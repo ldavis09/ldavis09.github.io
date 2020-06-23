@@ -1,0 +1,91 @@
+  <html> 
+  <head>
+    <title> Filter Fun </title>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Raleway&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+      <h1>Filter-gram: fun with filters</h1>
+    
+      <p>
+        <div id="fbox">
+  Upload an image:   
+          <input type = "File"
+            multiple = "false"
+            accept = "image/*"
+            id = "fileIn"
+            onchange = "loadImage()">
+          </div>
+      <br>
+      </br>
+      <canvas id="can">
+        </canvas>
+      <br>
+      </br>
+      <div id="hbox">
+      <h2> Select a filter </h2>
+      </p>
+      </div>
+<p>
+  
+  <input type = "button"
+         class="Button"
+         id = "grey"
+         value = "Grayscale"
+         onclick = "doGray()">
+  
+  <input type="button"
+         class="Button"
+         id = "red"
+         value = "Red filter"
+         onclick = "doRed()">
+  
+  <input type = "button"
+         class="Button"
+         id = "sepia"
+         value = "Vintage"
+         onclick = "doSepia()">
+  
+  <input type = "button"
+         class="Button"
+         id= "negative"
+         value = "Negative"
+         onclick = "doNeg()">
+  
+  <input type = "button"
+         id = "xRay"
+         class = "Button"
+         value = "X-Ray"
+         onclick = "doXray()">
+  
+  <input type = "button"
+         class = "Button"
+         id = "blur"
+         value = "Blur"
+         onclick = "doBlur()">
+         
+  <input type = "button"
+         class = "Button"
+         id = "original"
+         value = "Revert"
+         onclick = "reset()">
+  
+    <input type = "button"
+         class="Button"
+         id="Clear"
+         value="Clear Image"
+         onclick = "doClear()">
+         
+  
+  
+         
+      
+  
+  
+  
+  
+  
+  
+      
